@@ -1,0 +1,45 @@
+body{
+	font-family: "Helvetica", "Arial","LiHei Pro","����-�c","�L�n������", sans-serif;
+	background-color:#F7F7F7;
+	margin:0px;
+}
+header{	
+	border-top-width:20px;
+	border-top-style:solid;
+	border-top-color:#009843;
+
+	border-bottom-width:5px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+
+	background-color:#ffffff;
+	margin:0px;
+	height:13%;
+}
+header img{
+	height:70%;
+	margin-left:5%;
+	margin-top:1%;
+}
+#container{
+	width:75%;
+	margin:6% auto 0px auto;
+	font-size:300%;
+	text-align:center;
+}
+.speech_row{
+	text-align:left;
+}
+.speech_title{
+	display:inline-block;
+	font-weight:bold;
+	margin:3% 1% 0px 30%;
+}
+#recognitionFinal{
+	color:#0099CB;
+	font-weight:bold;
+}
+.microphone{
+	margin-top:3%;
+	cursor:pointer;
+}

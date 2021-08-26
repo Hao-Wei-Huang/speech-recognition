@@ -1,0 +1,25 @@
+<! doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>上銀手臂競賽-語音辨識</title>
+		<link type="text/css" rel="stylesheet" href="./css/speech-recognition.css" />
+	</head>
+	<body>
+		<header>
+			<img src="img/logo.png">
+		</header>
+		<div id="container">
+			<div class="speech_row">
+				<span class = "speech_title">說話內容:</span><span class = "speech_content" id = "recognitionInit"></span>
+			</div>
+			<div class="speech_row">
+				<span class = "speech_title">辨識結果:</span><span class = "speech_content" id = "recognitionFinal"></span>
+			</div>
+			<img src="img/microphone-stop.png" alt="" class="microphone">
+		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="./js/file-saver.js" charset="utf-8"></script>
+		<script src="./js/speech-recognition.js"></script>
+	</body>	
+</html>
